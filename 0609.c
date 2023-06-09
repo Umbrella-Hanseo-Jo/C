@@ -51,8 +51,7 @@ int main() {
 
     //주어진 키들을 이진 탐색 트리에 삽입
     for (int i = 0; i < n; i++)
-        root = insert(root, keys[i]);
-
+        root = insert(root, keys[i])
 
     //중위 순회 결과 출력
     printf("중위 순회 결과: ");
